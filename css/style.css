@@ -24,7 +24,7 @@ a,p,li,.btn {
 }
 
 .navbar-brand {
-	min-height: 75px;
+	/*min-height: 75px;*/
 }
 
 .navbar-inverse .navbar-toggle .icon-bar {
@@ -58,11 +58,11 @@ ul li>a {
 
 .navbar-inverse .navbar-brand,.navbar-inverse .navbar-brand:hover {
 	color: #14A24A; /* retain same colour of navbar-brand on hover and when visited */
-	font-weight: bold;
+	font-weight: bolder;
 }
 
 a.navbar-brand {
-	font-size: 20px;
+	font-size: 19px;
 	margin-top: 9px;
 }
 
@@ -87,7 +87,7 @@ a.navbar-brand {
 }
 
 .inPartnership {
-	margin: 0 100px;
+	margin: 5px 50px;
 	font-size: 30px;
 }
 
