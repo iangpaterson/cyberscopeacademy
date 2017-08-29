@@ -6,10 +6,16 @@ h1,h2,h3,h4,h5,h6,blockquote, figcaption.h3 {
 	font-family: 'Raleway', sans-serif;
 }
 
+h2 a {
+	font-family: 'Raleway', sans-serif;
+	font-size: 30px;
+}
+
 a,p,li,.btn {
 	/*font-family: 'Open Sans', sans-serif;*/
 	font-family: 'Cabin', sans-serif;
 	font-size: 17px;
+	text-align: justify;
 }
 
 .logo {
@@ -25,6 +31,7 @@ a,p,li,.btn {
 
 .navbar-brand {
 	/*min-height: 75px;*/
+	padding: 10px 15px 15px 15px;
 }
 
 .navbar-inverse .navbar-toggle .icon-bar {
@@ -136,6 +143,10 @@ small {
 	margin-bottom: 0;
 }
 
+iframe {
+	padding: 10px;
+}
+
 .panel-footer {
 	padding-left: 15px;
 	background-color: #fff;
@@ -146,10 +157,11 @@ small {
 	background-color: #333333;
 	color: #F2F8F8;
 	padding: 20px 15px;
+	margin-top: 10px;
 }
 
 .aboutParagraph {
-	border-right: 1px solid;
+	border-right: none;
 	padding: 10px 20px 10px 0;
 }
 
@@ -169,7 +181,7 @@ small {
 
 /* media queries */
 @media(min-width: 320px) {
-
+	
 }
 
 @media (min-width:768px) {
@@ -180,8 +192,10 @@ small {
 
 @media (max-width: 767px) {
 	.aboutParagraph {
-		border-bottom: 1px solid;
 		border-right: none;
 		margin-bottom: 10px;
+	}
+	#copyrightSection {
+		text-align: center;
 	}
 }
