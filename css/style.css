@@ -103,8 +103,8 @@ a.navbar-brand {
 }
 
 .panel {
-	margin-bottom: 0px;
-	border: none;
+	margin-bottom: 20px;
+	/*border: none;*/
 }
 
 .card {
@@ -194,8 +194,5 @@ iframe {
 	.aboutParagraph {
 		border-right: none;
 		margin-bottom: 10px;
-	}
-	#copyrightSection {
-		text-align: center;
 	}
 }
