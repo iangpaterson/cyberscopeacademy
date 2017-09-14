@@ -5,7 +5,7 @@ $(window).load(function() {
 
 $(document).ready(function(){
 	$("#counter").countdown({
-	until: new Date(2017, 08 - 1, 30, 0), // (YEAR, month-1 (08-1 = Aug), day, hours)
+	until: new Date(2017, 09 - 1, 20, 9), // (YEAR, month-1 (08-1 = Aug), day, hours)
 	format: 'dHMS'
 	});
 
@@ -13,6 +13,4 @@ $(document).ready(function(){
 	minFontSize: '20px',
 	maxFontSize: '50px'
 	});
-
-	$("").
 });
