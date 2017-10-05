@@ -134,6 +134,11 @@ small {
 	color: #949599;
 }
 
+.VAT {
+	color: #9A2350;
+	font-weight: 700;
+}
+
 .btn {
 	margin-bottom: 5px;
 }
