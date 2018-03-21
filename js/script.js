@@ -5,7 +5,7 @@ $(window).load(function() {
 
 $(document).ready(function(){
 	$("#counter").countdown({
-	until: new Date(2018, 3 - 1, 26, 9), // (YEAR, month-1 (06-1 = Jun), day, hours)
+	until: new Date(2018, 4 - 1, 23, 9), // (YEAR, month-1 (06-1 = Jun), day, hours)
 	format: 'dHMS'
 	});
 
